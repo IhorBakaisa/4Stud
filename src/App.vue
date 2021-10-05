@@ -29,6 +29,11 @@ export default {
           photoStudent: "",
           nameStudent: "Євген",
           studentAddress: "Чоп"
+        },
+        {
+          photoStudent: "",
+          nameStudent: "Даня",
+          studentAddress: "Берегово"
         }
       ]
     }
