@@ -1,12 +1,11 @@
 <template>
   <div id="app">
     <div class="header">
-      <br>
-      <router-link to="/" class="pages">Головна</router-link>
-      <router-link to="/aboutGoods" class="pages">Інформація про товар</router-link>
-      <router-link to="/addGoods" class="pages">Додати товар</router-link>
-      <router-link to="/myAccount" class="pages">Мій кабінет</router-link>
-      <router-link to="/registration" class="pages">Реєстрація</router-link>
+      <router-link to="/" class="pages home">Головна</router-link>
+      <!-- <router-link to="/aboutGoods" class="pages">Інформація про товар</router-link> -->
+      <!-- <router-link to="/addGoods" class="pages">Додати товар</router-link> -->
+      <router-link to="/myAccount" class="pages myOffice">Мій кабінет</router-link>
+      <router-link to="/registration" class="pages myRegistration">Реєстрація</router-link>
       <br>
       <br>
     </div>
@@ -57,11 +56,30 @@ export default {
   background: rgb(235, 235, 235);
 }
 
-/* .header {
-
+.home {
+  position: absolute;
+  left: 0;
+  margin-left: 10%;
 }
 
-.content {
+.myOffice {
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
+}
+
+.myRegistration {
+  position: absolute;
+  right: 0; 
+  margin-right: 2%;
+}
+
+.header {
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+/* .content {
 
 }
 
