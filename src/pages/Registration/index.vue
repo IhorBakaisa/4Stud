@@ -11,6 +11,9 @@
             <input type="text" placeholder="Номер">
             <br>
             <br>
+            <input type="text" placeholder="Логін">
+            <br>
+            <br>
             <input type="text" placeholder="Пароль">
             <br>
             <br>
@@ -31,19 +34,19 @@
 <style lang="css" scoped>
 .blockRegestration {
     width: 20%;
-    background: rgb(235, 235, 235);
+    background: Black;
     margin-left: 40%;
     padding: 0.5%;
 }
-
 button {
-  border: 1px solid rgb(196, 195, 195);
-  border-radius: 4px;
-  background-color: rgb(196, 195, 195);
-  margin-left: 1%;
-  padding: 10px;
-  color: black;
-  text-decoration: none;
-  margin-bottom: 2%;
+  border-color: OrangeRed;
+  color: Black;
+  box-shadow: 0 0 40px 40px Gold inset, 0 0 0 0 Gold;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 0 DarkOrange inset, 0 0 10px 4px DarkOrange;
 }
 </style>

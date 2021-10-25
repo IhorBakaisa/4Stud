@@ -6,6 +6,7 @@
       <!-- <router-link to="/addGoods" class="pages">Додати товар</router-link> -->
       <router-link to="/myAccount" class="pages myOffice">Мій кабінет</router-link>
       <router-link to="/registration" class="pages myRegistration">Реєстрація</router-link>
+      <router-link to="/registration" class="pages mySignIn">Увійти</router-link>
       <br>
       <br>
     </div>
@@ -13,7 +14,16 @@
       <router-view></router-view>
     </div>
     <div class="footer">
-      <h3>Footer</h3>
+        <div class='followUs'>
+      <h3 style="color:#FFFFFF" >FOLLOW US</h3>
+      <p> <a href="">Facebook</a></p>
+      <p> <a href="">Instagram</a></p>
+        </div>
+        <div class='contacts'>
+      <h3 style="color:#FFFFFF">CONTACTS</h3>
+      <p>Call us now: 0123-456-789</p>
+      <p><a href="">Email: forstudents-admin@gmail.com</a></p>
+        </div>
     </div>
   </div>
 </template>
@@ -35,17 +45,21 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: Gold	;
   margin-top: 10px;
 }
 
 .pages {
   border-radius: 4px;
-  background-color: rgb(153, 153, 153);
+  background-color: Gold;
   margin-left: 20px;
   padding: 10px;
-  color: white;
+  color: Black;
   text-decoration: none;
+}
+.pages:hover {
+  background-color: DarkOrange; 
+  color: white;
 }
 
 .header, .content, .footer {
@@ -53,7 +67,7 @@ export default {
 }
 
 .header, .footer {
-  background: rgb(235, 235, 235);
+  background: Black;
 }
 
 .home {
@@ -65,25 +79,55 @@ export default {
 .myOffice {
   position: absolute;
   right: 0;
-  margin-right: 10%;
+  margin-right: 15%;
 }
 
 .myRegistration {
   position: absolute;
   right: 0; 
-  margin-right: 2%;
+  margin-right: 7%;
+}
+.mySignIn {
+  position: absolute;
+  right: 0; 
+  margin-right: 20px;
 }
 
 .header {
   padding-bottom: 1%;
   padding-top: 1%;
 }
+a {
+    text-decoration: none;
+    color: Gold; /* Цвет обычной ссылки */
+    padding: 2px; /* Поля вокруг текста */
+   }
+
+   a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: Goldenrod; /* Цвет фона */
+   }
 
 /* .content {
 
-}
+}*/
 
 .footer {
-
-} */
+flex: 0 0 auto;
+} 
+.followUs{
+  margin: 10px;
+  border:3px Gold  solid; 
+  width: 150px; 
+  position: absolute;
+  left: 0; 
+  margin-left: 550px;
+}
+.contacts{
+  border:3px Gold  solid; 
+  width: 250px; 
+  left: 0; 
+  margin-left: 810px;
+}
 </style>
