@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <router-link to="/" class="pages home" ><img src="logo.jpg" class="logo"></router-link>
+      <router-link to="/"  ><img src="logo.jpg" class="logo"></router-link>
       <!-- <router-link to="/aboutGoods" class="pages">Інформація про товар</router-link> -->
       <!-- <router-link to="/addGoods" class="pages">Додати товар</router-link> -->
       <router-link to="/myAccount" class="pages myOffice">Мій кабінет</router-link>
@@ -47,8 +47,9 @@ export default {
   margin-top: 10px;
 }
 .logo{
+  margin-left: -1300px;
   padding: -150px;
-  height: 25px;
+  height: 35px;
   width: 100px;
 }
 .pages {
