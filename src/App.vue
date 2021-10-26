@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <router-link to="/" class="pages home">Головна</router-link>
+      <router-link to="/" class="pages home" ><img src="logo.jpg" class="logo"></router-link>
       <!-- <router-link to="/aboutGoods" class="pages">Інформація про товар</router-link> -->
       <!-- <router-link to="/addGoods" class="pages">Додати товар</router-link> -->
       <router-link to="/myAccount" class="pages myOffice">Мій кабінет</router-link>
@@ -22,15 +22,13 @@
         <div class='contacts'>
       <h3 style="color:#FFFFFF">CONTACTS</h3>
       <p>Call us now: 0123-456-789</p>
-      <p><a href="">Email: forstudents-admin@gmail.com</a></p>
+      <p>Email:<a href=""> forstudents-admin@gmail.com</a></p>
         </div>
     </div>
   </div>
 </template>
 
 <script>
-
-
 export default {
   name: 'App',
   components: {
@@ -48,7 +46,11 @@ export default {
   color: Gold	;
   margin-top: 10px;
 }
-
+.logo{
+  padding: -150px;
+  height: 25px;
+  width: 100px;
+}
 .pages {
   border-radius: 4px;
   background-color: Gold;
@@ -65,23 +67,19 @@ export default {
 .header, .content, .footer {
   padding: 10px;
 }
-
 .header, .footer {
   background: Black;
 }
-
 .home {
   position: absolute;
   left: 0;
   margin-left: 10%;
 }
-
 .myOffice {
   position: absolute;
   right: 0;
   margin-right: 15%;
 }
-
 .myRegistration {
   position: absolute;
   right: 0; 
@@ -92,9 +90,8 @@ export default {
   right: 0; 
   margin-right: 20px;
 }
-
 .header {
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   padding-top: 1%;
 }
 a {
@@ -102,17 +99,13 @@ a {
     color: Gold; /* Цвет обычной ссылки */
     padding: 2px; /* Поля вокруг текста */
    }
-
    a:hover {
     text-decoration: none; /* Убираем подчеркивание */
     color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
     background: Goldenrod; /* Цвет фона */
    }
-
 /* .content {
-
 }*/
-
 .footer {
 flex: 0 0 auto;
 } 
