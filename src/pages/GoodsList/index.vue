@@ -44,14 +44,26 @@
             </button>
         </div>
         <div class="mainList">
-            dghdgd
+            <div class="listGoods">
+            <goods-item v-for="goods in getGoodsList" :key="goods.id"
+            :goods="goods"
+            />
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+    import GoodsItem from "@/components/GoodsItem";
+    import { mapGetters } from "vuex"
     export default {
-        
+        name: 'GoodsList',
+        components: {
+            GoodsItem
+        },
+        computed: {
+            ...mapGetters(['getGoodsList'])
+        },
     }
 </script>
 
@@ -61,8 +73,21 @@
     margin-left: 210px;
     background-color: black;
     margin-top: -465px;
-    height: 800px;
-    width: 1450px;
+    width: 1279px;
+    margin-bottom: 5px;
+}
+
+.listGoods {
+    background-color: black;
+    width: 1235px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    grid-column-gap: 10px;
+    grid-row-gap: 35px;
+    margin-left: 45px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .btnCategories{
     height: 50px;
@@ -104,7 +129,7 @@
 }
 .sort{
     border: 2px solid;
-    width: 1450px;
+    width: 1279px;
     margin-left: 210px;
     background-color: black;
 }

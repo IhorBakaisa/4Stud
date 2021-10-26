@@ -1,44 +1,33 @@
 <template>
     <div>
-        <div class="blockRegestration">
-            <h3 >Реєстрація</h3>
-            <input type="text" placeholder="П.І.Б">
-            <br>
-            <br>
-            <input type="text" placeholder="Пошта">
-            <br>
-            <br>
-            <input type="text" placeholder="Номер">
-            <br>
-            <br>
+        <div class="blockEnt">
+            <h3 >Вхід</h3>
             <input type="text" placeholder="Логін">
             <br>
             <br>
             <input type="text" placeholder="Пароль">
             <br>
             <br>
-            <input type="text" placeholder="Повтор паролю">
-            <br>
-            <br>
-            <button>Зареєструватися</button>
+            <button>Увійти</button>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'Registration',
+        name: 'Enter',
 
     }
 </script>
 
 <style lang="css" scoped>
-.blockRegestration {
+.blockEnt {
     width: 20%;
-    background: Black;
+    background: black;
     margin-left: 40%;
     padding: 0.5%;
 }
+
 button {
   border-color: black;
   color: Black;

@@ -6,7 +6,7 @@
       <!-- <router-link to="/addGoods" class="pages">Додати товар</router-link> -->
       <router-link to="/myAccount" class="pages myOffice">Мій кабінет</router-link>
       <router-link to="/registration" class="pages myRegistration">Реєстрація</router-link>
-      <router-link to="/registration" class="pages mySignIn">Увійти</router-link>
+      <router-link to="/enter" class="pages mySignIn">Увійти</router-link>
       <br>
       <br>
     </div>
