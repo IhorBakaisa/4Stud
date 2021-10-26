@@ -92,7 +92,7 @@ export default {
   margin-right: 20px;
 }
 .header {
-  padding-bottom: 2%;
+  padding-bottom: 0%;
   padding-top: 1%;
 }
 a {
