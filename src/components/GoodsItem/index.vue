@@ -22,14 +22,15 @@
 </script>
 
 <style lang="css" scoped>
+
 .blockgoods {
     width: 250px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
     margin: 3px;
-    border-radius: 4px;
+    border-radius:  20px;
+    border-color:gold ;
     color: black;
-    background: Gold;
-    border-radius: 5px;
+    background: white;
 }
 
 .photo {
@@ -46,6 +47,7 @@
 .cardInfo {
     border: 2px solid black;
     color: Gold;
+    border-color: gold;
     background: black;
     margin-left: 40px;
     margin-right: 40px;
@@ -53,7 +55,12 @@
 }
 
 button {
-  border-radius: 4px;
+  border-color: gold;
+  color: #fff;
+  box-shadow: 0 0 0 0 black;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  border-radius: 6px;
   background-color: black;
   margin-left: 20px;
   padding: 10px;
@@ -66,7 +73,7 @@ button {
   width: 175px;
 }
 button:hover {
-  background-color: DarkOrange; 
-  color: white;
+  box-shadow: 0 0 10px 0 gold inset, 0 0 10px 4px gold;
 }
+
 </style>

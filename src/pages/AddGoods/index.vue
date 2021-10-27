@@ -68,7 +68,7 @@ import { mapActions } from "vuex";
 button {
   border-color: black;
   color: Black;
-  box-shadow: 0 0 40px 40px Gold inset, 0 0 0 0 Gold;
+  box-shadow: 0 0 40px 40px black inset, 0 0 0 0 black;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
   margin-bottom: 10px;

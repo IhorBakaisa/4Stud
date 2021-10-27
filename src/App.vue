@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+    <HomeIcon class="icon1"/>
     <div class="header">
-      <router-link to="/"  ><img src="logo.jpg" class="logo"></router-link>
+      <router-link to="/"><img src="logo.jpg" class="logo"></router-link>
       <!-- <router-link to="/aboutGoods" class="pages">Інформація про товар</router-link> -->
       <!-- <router-link to="/addGoods" class="pages">Додати товар</router-link> -->
       <router-link to="/myAccount" class="pages myOffice">Мій кабінет</router-link>
@@ -15,12 +16,16 @@
     </div>
     <div class="footer">
         <div class='followUs'>
+          <GlobeAltIcon class="icon8"/>
+          <GlobeIcon class="icon9"/>
       <h3 style="color:#FFFFFF" >FOLLOW US</h3>
       <p> <a href="">Facebook</a></p>
       <p> <a href="">Instagram</a></p>
         </div>
         <div class='contacts'>
       <h3 style="color:#FFFFFF">CONTACTS</h3>
+      <PhoneIcon class="icon6"/>
+      <MailIcon class="icon7"/>
       <p>Call us now: 0123-456-789</p>
       <p>Email:<a href=""> forstudents-admin@gmail.com</a></p>
         </div>
@@ -29,16 +34,21 @@
 </template>
 
 <script>
+import { HomeIcon } from '@iconicicons/vue'
+import { PhoneIcon } from "@vue-hero-icons/solid"
+import { MailIcon } from "@vue-hero-icons/solid"
+import { GlobeAltIcon } from "@vue-hero-icons/outline"
+import { GlobeIcon } from "@vue-hero-icons/outline"
 export default {
   name: 'App',
-  components: {
-    
+  components: {  HomeIcon,PhoneIcon,MailIcon,GlobeAltIcon,GlobeIcon
   }
 }
 </script>
 
 <style>
 #app {
+  background-image: url(https://images.wallpaperscraft.ru/image/single/chernyj_temnyj_fraktal_149686_300x168.jpg) ;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -69,6 +79,7 @@ export default {
   padding: 10px;
 }
 .header, .footer {
+  border:2px Gold  solid;
   background: Black;
 }
 .home {
@@ -123,5 +134,35 @@ flex: 0 0 auto;
   width: 250px; 
   left: 0; 
   margin-left: 810px;
+}
+.icon1{
+  position: absolute;
+  color: gold;
+  margin-top: 18px;
+  margin-left: -730px;
+}
+.icon6{
+  position: absolute;
+  color: gold;
+  margin-top: -5px;
+  margin-left: -120px;
+}
+.icon7{
+  position: absolute;
+  color: gold;
+  margin-top: 35px;
+  margin-left: -100px;
+}
+.icon8{
+  position: absolute;
+  color: gold;
+  margin-top: 55px;
+  margin-left: -65px;
+}
+.icon9{
+  position: absolute;
+  color: gold;
+  margin-top: 90px;
+  margin-left: -65px;
 }
 </style>

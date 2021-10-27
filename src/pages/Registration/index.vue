@@ -1,5 +1,6 @@
 <template>
     <div>
+        <UserAddIcon class="icon5"/>
         <div class="blockRegestration">
             <h3 >Реєстрація</h3>
             <input type="text" placeholder="П.І.Б">
@@ -26,14 +27,17 @@
 </template>
 
 <script>
+import { UserAddIcon } from "@vue-hero-icons/outline"
     export default {
         name: 'Registration',
-
+ components: { UserAddIcon
+  }
     }
 </script>
 
 <style lang="css" scoped>
 .blockRegestration {
+    border:2px Gold  solid;
     width: 20%;
     background: Black;
     margin-left: 40%;
@@ -50,5 +54,11 @@ button {
 
 button:hover {
   box-shadow: 0 0 10px 0 DarkOrange inset, 0 0 10px 4px DarkOrange;
+}
+.icon5{
+  position: absolute;
+  color: gold;
+  margin-top: 23px;
+  margin-left: -75px;
 }
 </style>

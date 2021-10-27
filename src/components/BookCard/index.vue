@@ -40,7 +40,6 @@ export default {
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    border: 2px solid greenyellow;
     border-radius:10px;
     width: 500px;
     margin:20px;

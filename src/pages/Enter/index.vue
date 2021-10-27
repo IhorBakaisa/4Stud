@@ -1,5 +1,6 @@
 <template>
     <div>
+        <LoginIcon class="icon4"/>
         <div class="blockEnt">
             <h3 >Вхід</h3>
             <input type="text" placeholder="Логін">
@@ -14,14 +15,17 @@
 </template>
 
 <script>
+import { LoginIcon } from "@vue-hero-icons/outline"
     export default {
         name: 'Enter',
-
+components: { LoginIcon
+  }
     }
 </script>
 
 <style lang="css" scoped>
 .blockEnt {
+    border:2px Gold  solid;
     width: 20%;
     background: black;
     margin-left: 40%;
@@ -39,5 +43,11 @@ button {
 
 button:hover {
   box-shadow: 0 0 10px 0 DarkOrange inset, 0 0 10px 4px DarkOrange;
+}
+.icon4{
+  position: absolute;
+  color: gold;
+  margin-top: 25px;
+  margin-left: 35px;
 }
 </style>

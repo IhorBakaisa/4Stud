@@ -1,5 +1,7 @@
 <template>
     <div>
+      <MenuIcon class="icon2"/>
+      <SwitchHorizontalIcon class="icon3"/>
         <div class="sort">
             <p> Вибрати товар за <select size="1" class="select">
             <option value="1">ціною</option>
@@ -56,10 +58,12 @@
 <script>
     import GoodsItem from "@/components/GoodsItem";
     import { mapGetters } from "vuex"
+    import { MenuIcon } from '@iconicicons/vue'
+    import { SwitchHorizontalIcon } from "@vue-hero-icons/outline"
     export default {
         name: 'GoodsList',
         components: {
-            GoodsItem
+            GoodsItem, MenuIcon,SwitchHorizontalIcon
         },
         computed: {
             ...mapGetters(['getGoodsList'])
@@ -94,7 +98,7 @@
     width: 190px;
     padding-top: 10px ;
     border-radius: 4px;
-    background-color: Gold;
+    background-color: gold;
 
 
     color: Black;
@@ -132,5 +136,17 @@
     width: 1279px;
     margin-left: 210px;
     background-color: black;
+}
+.icon2{
+  position: absolute;
+  color: gold;
+  margin-top: 15px;
+  margin-left: -720px;
+}
+.icon3{
+  position: absolute;
+  color: gold;
+  margin-top: 15px;
+  margin-left: -70px;
 }
 </style>
