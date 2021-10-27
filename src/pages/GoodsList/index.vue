@@ -99,8 +99,6 @@
     padding-top: 10px ;
     border-radius: 4px;
     background-color: gold;
-
-
     color: Black;
     text-decoration: none;
 }

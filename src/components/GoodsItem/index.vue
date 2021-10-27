@@ -67,8 +67,6 @@ button {
   color: gold;
   text-decoration: none;
   margin-top: 25px;
-  margin-left: 1px;
-  border-radius: 5px;
   border: 2px solid gold;
   width: 175px;
 }
