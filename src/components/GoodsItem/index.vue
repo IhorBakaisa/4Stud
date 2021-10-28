@@ -62,7 +62,7 @@ button {
   transition: all 150ms ease-in-out;
   border-radius: 6px;
   background-color: black;
-  margin-left: 20px;
+  margin-left: 0px;
   padding: 10px;
   color: gold;
   text-decoration: none;

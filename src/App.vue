@@ -4,7 +4,6 @@
     <div class="header">
       <router-link to="/"><img src="logo.jpg" class="logo"></router-link>
       <!-- <router-link to="/aboutGoods" class="pages">Інформація про товар</router-link> -->
-      <!-- <router-link to="/addGoods" class="pages">Додати товар</router-link> -->
       <router-link to="/myAccount" class="pages myOffice">Мій кабінет</router-link>
       <router-link to="/registration" class="pages myRegistration">Реєстрація</router-link>
       <router-link to="/enter" class="pages mySignIn">Увійти</router-link>
@@ -54,7 +53,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: Gold	;
-  margin-top: 10px;
+  margin: -8px;
 }
 .logo{
   margin-left: -1300px;
@@ -74,7 +73,6 @@ export default {
   background-color: DarkOrange; 
   color: white;
 }
-
 .header, .content, .footer {
   padding: 10px;
 }
