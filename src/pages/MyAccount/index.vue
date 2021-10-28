@@ -75,7 +75,7 @@ import { ClipboardListIcon } from "@vue-hero-icons/outline"
  box-shadow: 0 0 10px 0 white inset, 0 0 10px 4px darkorange;
 }
 #myAdvertisemen{
-    margin-top: 150px;
+    margin-top: 120px;
     text-align: center;
     font-size: 20px;
 }
@@ -105,7 +105,7 @@ import { ClipboardListIcon } from "@vue-hero-icons/outline"
 .icon12{
   position: absolute;
   color: gold;
-  margin-top: 150px;
+  margin-top: 120px;
   margin-left: 80px;
 }
 </style>
