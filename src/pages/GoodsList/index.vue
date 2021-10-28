@@ -139,12 +139,12 @@
   position: absolute;
   color: gold;
   margin-top: 15px;
-  margin-left: -800px;
+  margin-left: -720px;
 }
 .icon3{
   position: absolute;
   color: gold;
   margin-top: 15px;
-  margin-left: -160px;
+  margin-left: -70px;
 }
 </style>
