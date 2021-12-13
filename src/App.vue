@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
     <HomeIcon class="icon1"/>
     <div class="header">
       <router-link to="/"><img src="logo.jpg" class="logo"></router-link>

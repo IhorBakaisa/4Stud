@@ -4,12 +4,12 @@
 @import './GoodList';
 @import './MyAccount';
 @import './Registration';
-
+@import './GoodsItem';
 
 #app {
     background-image: url(https://images.wallpaperscraft.ru/image/single/chernyj_temnyj_fraktal_149686_300x168.jpg) ;
     min-height: 100vh;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
