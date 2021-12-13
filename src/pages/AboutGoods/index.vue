@@ -1,5 +1,7 @@
 <template>
     <div class="blockAboutGoods">
+        <ShoppingCartIcon class="icon13"/>
+        <h3 id="nameGoods">Назва товару</h3>
         <div class="photoAboutGoods">
             Фото
         </div>
@@ -7,7 +9,7 @@
             Ціна: 1488$
             <br>
             <br>
-            Прізвища Ім’я Побатькові 
+            Прізвищe Ім’я По батькові 
             <br>
             <br> 
             Контакти 
@@ -15,7 +17,7 @@
             <br>
             Навчальний заклад
         </p>
-        <h2 id="nameGoods">Назва товару</h2>
+        <DotsCircleHorizontalIcon class="icon14"/>
         <div class="description">
             Опис...
         </div>
@@ -23,7 +25,10 @@
 </template>
 
 <script>
+import { ShoppingCartIcon } from "@vue-hero-icons/outline"
+import { DotsCircleHorizontalIcon } from "@vue-hero-icons/solid"
     export default {
-        
+       components: { ShoppingCartIcon,DotsCircleHorizontalIcon,
+  } 
     }
 </script>
