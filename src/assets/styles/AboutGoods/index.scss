@@ -1,5 +1,6 @@
 #app {
   background-image: url(https://images.wallpaperscraft.ru/image/single/chernyj_temnyj_fraktal_149686_300x168.jpg) ;
+  min-height: 100vh;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,6 +26,7 @@
   background-color: DarkOrange; 
   color: white;
 }
+
   .header, .content, .footer {
   padding: 10px;
 }
@@ -66,10 +68,12 @@ a:hover {
   color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
   background: Goldenrod; /* Цвет фона */
 }
-  /* .content {
-  }*/
+
 .footer {
-  flex: 0 0 auto;
+  width: auto;
+  height: 150px;
+  padding-top: 2px;
+  margin-top: 250px;
 } 
 .followUs{
   margin: 10px;
